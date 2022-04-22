@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "docdash": "^1.2.0",
+    "jsdoc": "^3.6.10",
+    "webpack": "^5.72.0"
+  },
+  "scripts": {
+    "jsdoc": "jsdoc -c jsdoc.json"
+  }
+}
