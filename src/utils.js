@@ -22,4 +22,14 @@ export function sub (a, b) {
     return a - b
 }
 
+/**
+ * Times 
+ * @param {Number} a - mult
+ * @param {Number} b - mult
+ * @returns {Number} - product
+ */
+ export function mult (a, b) {
+    return a * b
+}
+
 
