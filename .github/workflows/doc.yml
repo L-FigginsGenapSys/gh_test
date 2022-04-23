@@ -16,7 +16,7 @@ jobs:
         uses: andstor/jsdoc-action@v1
         with:
           source_dir: ./src
-          output_dir: ./docs
+          output_dir: ./jsdoc
           config_file: jsdoc.json
           template: docdash
           front_page: README.md
@@ -24,6 +24,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
-          publish_dir: ./docs
+          publish_dir: ./jsdoc
   
     
