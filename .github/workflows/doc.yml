@@ -17,7 +17,6 @@ jobs:
         with:
           config_file: jsdoc.json
           template: docdash
-         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
