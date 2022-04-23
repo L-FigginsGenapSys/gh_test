@@ -15,11 +15,8 @@ jobs:
       - name: Build
         uses: andstor/jsdoc-action@v1
         with:
-          source_dir: ./src
-          output_dir: ./jsdoc
           config_file: jsdoc.json
-          template: docdash
-          front_page: README.md
+         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
