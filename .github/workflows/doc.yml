@@ -16,6 +16,7 @@ jobs:
         uses: andstor/jsdoc-action@v1
         with:
           config_file: jsdoc.json
+          template: docdash
          
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
